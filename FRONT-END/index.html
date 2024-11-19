@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCR</title>
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+</head>
+<body>
+
+    
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Grupo_CCR.svg/1200px-Grupo_CCR.svg.png" alt="CCR logo" width="60" height="60"/>
+        <i class="fas fa-bars iconeMenu" onclick="toggleMenu()"></i>
+    </header>
+    
+    
+    <nav class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="mapa.html">Traçar rotas</a>
+        <a href="mapa.html">Pontos turísticos</a>
+        <a href="alunos.html">Quem somos</a>
+    </nav>
+
+    
+    <section class="titulo">
+        <h1>Nunca Foi Tão Fácil o Caminho por São Paulo</h1>
+        <p>O Tótis são uma rede de Totens de autoatendimento</p>
+        <button class="botaoPlay">
+            <i class="fas fa-play"></i>
+        </button>
+    </section>
+    
+    
+    <section class="conteudo">
+        <h2>Toda a Via Mobilidade</h2>
+        
+        <div class="icones">
+            <i class="fas fa-clock icon"></i>
+            <h2>Tempo Desejado</h2>
+        </div>
+
+        <div class="icones">
+            <i class="fas fa-wallet icon"></i>
+            <h2>O Que Cabe no Seu Bolso</h2>
+        </div>
+    </section>
+
+    
+    <section class="imagens">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwPw-Kers7XvastZQ68_cv1YNJi4ogmD8gw&s" alt="Train image" width="300" height="300"/>
+        <img src="https://www.mobilize.org.br/midias/noticias/novo-trem-da-via-mobilidade-para-as-linhas-8-e-9.jpg" alt="New train image" width="300" height="300"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9vk6T5BlEIc2L_x1scrn_gNsPc73f1uFArA&s" alt="Bicycle image" width="300" height="300"/>
+        
+        <h2>Melhor meio de transporte</h2>
+    </section>
+
+    
+    <section class="compartilhar">
+        <h2>Receba ou Compartilhe Sua Rota por:</h2>
+        
+        <div class="icones">
+            <i class="fas fa-sms icon"></i>
+            <h2>SMS</h2>
+        </div>
+        <div class="icones">
+            <i class="fas fa-envelope icon"></i>
+            <h2>Email</h2>
+        </div>
+        <div class="icones">
+            <i class="fas fa-phone phone-icon"></i>
+            <h2>WhatsApp</h2>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
+</body>
+</html>

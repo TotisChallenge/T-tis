@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ASSETS/CSS/mapa.css">
+    <title>Encontre Seu Destino</title>
+</head>
+<body> 
+    
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Grupo_CCR.svg/1200px-Grupo_CCR.svg.png" alt="CCR logo" width="60" height="60"/>
+        <i class="fas fa-bars iconeMenu" onclick="toggleMenu()"></i>
+    </header>
+    
+    
+    <nav class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="mapa.html">Traçar rotas</a>
+        <a href="mapa.html">Pontos turísticos</a>
+        <a href="alunos.html">Quem somos</a>
+    </nav>
+    
+
+    <div class="conteudo">
+    <h1>
+        ENCONTRE SEU DESTINO E
+        <br/>
+        TRACE SUA ROTA!
+    </h1>
+    <h2>
+        ENCONTRE SERVIÇOS
+        <br/>
+        PERTO DE VOCÊ
+    </h2>
+    <div class="mapa">
+        <iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.419415484681!3d37.77492927975971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5f1d7b1b%3A0x4c8b0b0b0b0b0b0b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1633021234567!5m2!1sen!2s">
+        </iframe>
+    </div>
+    <button class="button">
+        TRACE SUA ROTA AGORA
+    </button>
+    <div class="robo">
+        <img alt="Imagem de um robô" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSb_sd-fr5wOLG1WrI97doNFTRk0qz5CRhvwQcyoRcVsqtzUH0D"/>
+    </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
+</body>
+</html>
